@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(126, 196, 219);
+    font-family: arial;
+    text-align: center;
+}
+
+h1 {
+    font-size: 350%;
+    color: rgb(255, 255, 128);
+}
+
+p.question {
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    font-size: 150%;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    border-radius: 15px;
+    color: white;
+}
+
+button.yes {
+    left: 28%;
+    background-color: green;
+}
+
+button.no {
+    right: 28%;
+    background-color: red;
+}
+
+p.answer {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    font-size: 200%;
+}
